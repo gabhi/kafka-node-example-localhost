@@ -1,4 +1,4 @@
-var kafka = require('..');
+var kafka = require('kafka-node');
 var HighLevelProducer = kafka.HighLevelProducer;
 var Client = kafka.Client;
 var client = new Client();

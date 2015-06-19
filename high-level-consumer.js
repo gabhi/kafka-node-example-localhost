@@ -1,6 +1,6 @@
 'use strict';
 
-var kafka = require('..');
+var kafka = require('kafka-node');
 var HighLevelConsumer = kafka.HighLevelConsumer;
 var Client = kafka.Client;
 var argv = require('optimist').argv;
