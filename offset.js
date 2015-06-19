@@ -1,6 +1,6 @@
 'use strict';
 
-var kafka = require('..');
+var kafka = require('kafka-node');
 var Client = kafka.Client;
 var Offset = kafka.Offset;
 var offset = new Offset(new Client());
